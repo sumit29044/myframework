@@ -12,6 +12,7 @@ class TestPurchaseItems(BaseClass): # inheriting Base class for availing conftes
         # Ist Page
         homepage = HomePage(self.driver)
         log.info("Clicking shop link")
+        print("Hello")
         shoppage = homepage.get_shop_link()
 
         # 2nd Page
