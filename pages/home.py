@@ -6,6 +6,7 @@ class HomePage:
 
     def __init__(self,driver):
         self.driver = driver
+        print("driver")
 
 
     # storing locator

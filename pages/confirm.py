@@ -10,6 +10,7 @@ class ConfirmPage:
     country_click = (By.XPATH,"//a[text()='India']")
     purchase_button = (By.XPATH,"//input[@value='Purchase']")
     text_value = (By.CLASS_NAME,"alert-success")
+    print("Hello Pages")
 
     # exposing webelement with the help of locator
     def get_country_name(self):
